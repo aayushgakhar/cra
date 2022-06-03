@@ -40,7 +40,7 @@ const Navbar = (props) => {
       </div>
 
       {/* mobile menu*/}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 flex flex-col justify-center items-center w-full h-screen bg-[#041C32]'}>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 flex flex-col justify-center items-center w-full h-screen bg-background'}>
           {navigation.map(
             (item) => (
               <li className='py-6 text-4xl'>{item.name}</li>
@@ -49,11 +49,11 @@ const Navbar = (props) => {
         </ul>
 
         {/* social links */}
-      <div className='hidden lg:flex flex-col fixed top-[35%] left-0'>
+      <div className='hidden md:flex flex-col fixed top-[35%] left-0'>
         <ul className=''>
           {social.map(
             (item) => (
-              <li className={'flex w-[160px] h-[60px] justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'}
+              <li className={'flex w-[160px] h-[60px] rounded justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'}
               style={{backgroundColor: item.color}}>
                 <a className='flex justify-between items-center w-full text-gray-300'
                 href={item.href}>

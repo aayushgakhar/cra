@@ -1,9 +1,12 @@
 import Navbar from "./components/Navbar";
 import Home from './components/Home';
+import About from "./components/About";
 
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
+import Skills from "./components/Skills";
+
 
 
 const navigation = [
@@ -27,7 +30,9 @@ function App() {
   return (
     <div>
       <Navbar navigation={navigation} social={social}/>
-      <Home></Home>
+      <Home/>
+      <About/>
+      <Skills/>
     </div>
     
 

@@ -1,6 +1,6 @@
 {
   "name": "react",
-  "homepage": "https://aayushgakhar.github.io/react/",
+  "homepagecomment": "https://aayushgakhar.github.io/react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "autoprefixer": "^10.4.7",
+    "devicon-react": "^1.1.1",
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.14",
     "react": "^18.1.0",
