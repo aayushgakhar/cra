@@ -1,6 +1,6 @@
 {
   "name": "react",
-  "homepagecomment": "https://aayushgakhar.github.io/react",
+  "homepage": "https://aayushgakhar.github.io/react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
