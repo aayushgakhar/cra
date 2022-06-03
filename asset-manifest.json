@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-react-app/static/css/main.da63b929.css",
-    "main.js": "/portfolio-react-app/static/js/main.5e0ed2f9.js",
-    "static/media/AG-logos_transparent.png": "/portfolio-react-app/static/media/AG-logos_transparent.e73fb28d81c97ca3b66b.png",
-    "index.html": "/portfolio-react-app/index.html",
-    "main.da63b929.css.map": "/portfolio-react-app/static/css/main.da63b929.css.map",
-    "main.5e0ed2f9.js.map": "/portfolio-react-app/static/js/main.5e0ed2f9.js.map"
+    "main.css": "/react/portfolio-react-app/static/css/main.da63b929.css",
+    "main.js": "/react/portfolio-react-app/static/js/main.1464c1b0.js",
+    "static/media/AG-logos_transparent.png": "/react/portfolio-react-app/static/media/AG-logos_transparent.e73fb28d81c97ca3b66b.png",
+    "index.html": "/react/portfolio-react-app/index.html",
+    "main.da63b929.css.map": "/react/portfolio-react-app/static/css/main.da63b929.css.map",
+    "main.1464c1b0.js.map": "/react/portfolio-react-app/static/js/main.1464c1b0.js.map"
   },
   "entrypoints": [
     "static/css/main.da63b929.css",
-    "static/js/main.5e0ed2f9.js"
+    "static/js/main.1464c1b0.js"
   ]
 }
