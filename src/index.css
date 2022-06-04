@@ -6,11 +6,44 @@
 
 @layer base {
   body {
-    @apply font-[raleway];
+    @apply font-[raleway] bg-background text-gray-300;
+  }
+  h1 {
+    @apply font-[Dazzle-unicase];
+  }
+  input, textarea {
+    @apply text-gray-700;
   }
   li {
     @apply px-4;
     @apply cursor-pointer;
+    @apply hover:text-gray-500;
+    @apply active:text-primary;
+  }
+   section {
+    @apply flex flex-col justify-center;
+    @apply w-full min-h-screen py-20;
+
+  }
+  .active {
+    @apply text-primary;
   }
 }
+
+.card {
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px; */
+}
+
+.card:hover{
+  background-image: linear-gradient(
+    to right, 
+    rgba(112,157,255,0.8),
+    hsla(242, 74%, 61%, 0.8)
+  )!important;
+}
+
+
 
