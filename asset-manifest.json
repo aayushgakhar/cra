@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.bf6e3d95.css",
-    "main.js": "/react/static/js/main.6d9b959f.js",
+    "main.css": "/react/static/css/main.c352d411.css",
+    "main.js": "/react/static/js/main.c0f9f598.js",
     "static/media/will_hero.png": "/react/static/media/will_hero.cc19e683c119f4677b05.png",
     "static/media/simple_risc.png": "/react/static/media/simple_risc.a2cfe7df1fcd900653ba.png",
     "static/media/retail_store.png": "/react/static/media/retail_store.d5e3d36c303a0f452d2a.png",
     "static/media/AG-logos_transparent.png": "/react/static/media/AG-logos_transparent.e73fb28d81c97ca3b66b.png",
     "index.html": "/react/index.html",
-    "main.bf6e3d95.css.map": "/react/static/css/main.bf6e3d95.css.map",
-    "main.6d9b959f.js.map": "/react/static/js/main.6d9b959f.js.map"
+    "main.c352d411.css.map": "/react/static/css/main.c352d411.css.map",
+    "main.c0f9f598.js.map": "/react/static/js/main.c0f9f598.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf6e3d95.css",
-    "static/js/main.6d9b959f.js"
+    "static/css/main.c352d411.css",
+    "static/js/main.c0f9f598.js"
   ]
 }
