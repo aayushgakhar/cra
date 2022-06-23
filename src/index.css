@@ -1,8 +1,9 @@
+@import url(https://use.typekit.net/owl5kpo.css?v1.1);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url(https://use.typekit.net/owl5kpo.css?v1.1);
 
 @layer base {
   body {
@@ -44,6 +45,25 @@
     hsla(242, 74%, 61%, 0.8)
   )!important;
 }
+
+.hover-1 {
+  background: linear-gradient(#1095c1 0 0) calc(100% - var(--p,0%)) / var(--p,0%) no-repeat;
+  transition: .4s, background-position 0s;
+}
+.hover-1:hover {
+  --p: 100%;
+}
+
+.hover-2 {
+  background: 
+    linear-gradient(#7266e2 0 0) no-repeat
+    calc(200% - var(--i, 0) * 100%) 100% / 200% calc(100% * var(--i, 0) + .08em);
+  transition: .3s calc(var(--i, 0) * .3s), background-position .3s calc(.3s - calc(var(--i, 0) * .3s));
+}
+.hover-2:hover {
+  --i: 1;
+}
+
 
 
 
