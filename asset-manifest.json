@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.49319f5e.css",
-    "main.js": "/static/js/main.2c4c51a7.js",
+    "main.css": "/static/css/main.cf31710d.css",
+    "main.js": "/static/js/main.2e62b397.js",
     "static/media/will_hero.png": "/static/media/will_hero.cc19e683c119f4677b05.png",
     "static/media/simple_risc.png": "/static/media/simple_risc.a2cfe7df1fcd900653ba.png",
     "static/media/retail_store.png": "/static/media/retail_store.d5e3d36c303a0f452d2a.png",
     "static/media/AG-logos_transparent.png": "/static/media/AG-logos_transparent.e73fb28d81c97ca3b66b.png",
     "index.html": "/index.html",
-    "main.49319f5e.css.map": "/static/css/main.49319f5e.css.map",
-    "main.2c4c51a7.js.map": "/static/js/main.2c4c51a7.js.map"
+    "main.cf31710d.css.map": "/static/css/main.cf31710d.css.map",
+    "main.2e62b397.js.map": "/static/js/main.2e62b397.js.map"
   },
   "entrypoints": [
-    "static/css/main.49319f5e.css",
-    "static/js/main.2c4c51a7.js"
+    "static/css/main.cf31710d.css",
+    "static/js/main.2e62b397.js"
   ]
 }
