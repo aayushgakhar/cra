@@ -1,26 +1,20 @@
 import Navbar from "./sections/Navbar";
-import Home from './sections/Home';
-import About from './sections/About';
-import Skills from './sections/Skills';
-import Work from './sections/Work';
-import Contact from './sections/Contact';
-import { Controller, Scene } from 'react-scrollmagic';
-
+import Home from "./sections/Home";
+import About from "./sections/About";
+import Skills from "./sections/Skills";
+import Work from "./sections/Work";
+import Contact from "./sections/Contact";
 
 function App() {
   return (
     <div>
-      
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Skills/>
-      <Work/>
-      <Contact/>
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Work />
+      <Contact />
     </div>
-    
-
-    
   );
 }
 

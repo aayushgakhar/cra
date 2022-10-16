@@ -17,9 +17,9 @@ const About = () => {
         </div>
         <div>
           <p>
-            I'm an innovative programmer. I am good at creative thinking and problem
-            solving, adept in Sortware development and working with different
-            data structures.
+            I'm an innovative programmer. I am good at creative thinking and
+            problem solving, adept in Sortware development and working with
+            different data structures.
           </p>
         </div>
       </div>

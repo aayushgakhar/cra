@@ -4,7 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   body {
     @apply font-[raleway] bg-background text-gray-300;
@@ -12,7 +11,8 @@
   h1 {
     @apply font-[Dazzle-unicase];
   }
-  input, textarea {
+  input,
+  textarea {
     @apply text-gray-700;
   }
   li {
@@ -21,10 +21,9 @@
     @apply hover:text-gray-500;
     @apply active:text-primary;
   }
-   section {
+  section {
     @apply flex flex-col justify-center;
     @apply w-full min-h-screen py-20;
-
   }
   .active {
     @apply text-primary;
@@ -38,32 +37,31 @@
   height: 300px; */
 }
 
-.card:hover{
+.card:hover {
   background-image: linear-gradient(
-    to right, 
-    rgba(112,157,255,0.8),
+    to right,
+    rgba(112, 157, 255, 0.8),
     hsla(242, 74%, 61%, 0.8)
-  )!important;
+  ) !important;
 }
 
 .hover-1 {
-  background: linear-gradient(#1095c1 0 0) calc(100% - var(--p,0%)) / var(--p,0%) no-repeat;
-  transition: .4s, background-position 0s;
+  background: linear-gradient(#1095c1 0 0) calc(100% - var(--p, 0%)) /
+    var(--p, 0%) no-repeat;
+  transition: 0.4s, background-position 0s;
 }
 .hover-1:hover {
   --p: 100%;
 }
 
 .hover-2 {
-  background: 
-    linear-gradient(#7266e2 0 0) no-repeat
-    calc(200% - var(--i, 0) * 100%) 100% / 200% calc(100% * var(--i, 0) + .08em);
-  transition: .3s calc(var(--i, 0) * .3s), background-position .3s calc(.3s - calc(var(--i, 0) * .3s));
+  background: linear-gradient(theme("colors.primary") 0 0) no-repeat
+    calc(200% - var(--i, 0) * 100%) 100% / 200%
+    calc(100% * var(--i, 0) + 0.08em);
+  transition: 0.3s calc(var(--i, 0) * 0.3s),
+    background-position 0.3s calc(0.3s - calc(var(--i, 0) * 0.3s));
 }
 .hover-2:hover {
   --i: 1;
+  color: theme("colors.background") !important;
 }
-
-
-
-
