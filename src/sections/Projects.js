@@ -26,17 +26,16 @@ const projects = [
   },
 ];
 
-const Work = () => {
+const Projects = () => {
   return (
-    <section name="work" className="max-w-[1000px] mx-auto p-4">
+    <section name='projects' className='max-w-[1000px] mx-auto p-4'>
       {/* <div className=' '> */}
-      <div className="pb-8 sm:px-10 md:px-20 lg:px-10">
-        <p className="hover-2 text-4xl font-bold inline border-b-4 border-primary">
-          Work
+      <div className='pb-8 px-10 md:px-20 lg:px-10'>
+        <p className='hover-2 text-4xl font-bold inline border-primary'>
+          Projects
         </p>
-        <p className="py-4">Check out some of my work.</p>
       </div>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-20 lg:px-10">
+      <div className='grid md:grid-cols-2 gap-4 px-10 md:px-20 lg:px-20'>
         {projects.map((project) => (
           <Card key={project.name} project={project} />
         ))}
@@ -47,4 +46,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;

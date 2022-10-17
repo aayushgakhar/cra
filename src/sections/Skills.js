@@ -37,8 +37,8 @@ const Skills = () => {
   return (
     <section name="skills" className="max-w-[700px] mx-auto p-4 pt-10">
       <div className="">
-        <div className="sm:mx-10 lg:mx-0">
-          <p className="hover-2 text-4xl font-bold inline border-b-4 border-primary">
+        <div className="px-10 sm:mx-10 lg:mx-0">
+          <p className="hover-2 text-4xl font-bold inline border-primary">
             Skills
           </p>
           <p className="py-4">These are the technologies I have worked with.</p>

@@ -35,18 +35,16 @@ class Contact extends React.Component {
     return (
       <section name="contact" className="items-center p-4">
         <form
-          className="flex flex-col max-w-[600px] w-full"
+          className="flex flex-col max-w-[600px] w-full px-10"
           target="_blank"
           action="https://docs.google.com/forms/d/1miRnSpRNnlKC-rnb3h0iiq2ZcmPp3H-58U1IZkZ2mQo/formResponse"
           method="POST"
         >
-          {/* 
-        > */}
           <div className="pb-8">
-            <p className="hover-2 text-4xl font-bold inline border-b-4 border-primary">
+            <p className="hover-2 text-4xl font-bold inline border-primary">
               Contact
             </p>
-            <p className="py-4">Submit the form below.</p>
+            <p className="pt-4">Submit the form below.</p>
           </div>
           <input
             className="input bg-[#ccd6f6] p-2"

@@ -13,10 +13,9 @@ import {
 } from "react-scroll";
 
 const navigation = [
-  { name: "Home", href: "#home", current: true, offset: 0 },
   { name: "About", href: "#about", current: true, offset: 0 },
   { name: "Skills", href: "#skills", current: false, offset: 0 },
-  { name: "Work", href: "#projects", current: false, offset: 0 },
+  { name: "Projects", href: "#projects", current: false, offset: 0 },
   { name: "Contact", href: "#contact", current: true, offset: 0 },
 ];
 
@@ -52,7 +51,7 @@ const Navbar = (props) => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#041C32] text-gray-300 z-50">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#041C32] text-gray-300 z-50 border-b-[0.5px] border-gray-700">
       <div>
         <img src={Logo} alt="AG" className="w-[50px]" />
       </div>
@@ -108,7 +107,7 @@ const Navbar = (props) => {
           {social.map((item) => (
             <li
               className={
-                "flex md:w-[160px] w-[110px] h-[60px] rounded-sm justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300"
+                "flex w-[140px] h-[60px] rounded-sm justify-between items-center ml-[-125px] md:ml-[-80px] hover:ml-[-10px] duration-300"
               }
               style={{ backgroundColor: item.color }}
             >
