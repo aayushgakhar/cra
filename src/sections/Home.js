@@ -5,10 +5,10 @@ const Home = () => {
   return (
     // <div  className='w-full h-auto min-h-screen bg-background'>
 
-    <section name='about' className='mx-auto pt-60'>
+    <section name='about' className='mx-auto sm:pt-60 sm:pb-20'>
       <p className='text-primary text-lg sm:text-2xl'>Hi, my name is</p>
       <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6] bg-clip-text text-transparent bg-fixed bg-gradient-to-r from-indigo-500 to-pink-500  hover:from-red-600 hover:to-violet-700 transition-colors duration-300'>
-        Aayush Gakhar
+        Aayush <br/> Gakhar
       </h1>
       <h2 className='text-4xl sm:text-7xl font-bold text-gray-400'>
         I'm a Software Developer
@@ -19,7 +19,7 @@ const Home = () => {
         Bootstrap and Tailwind.
       </p>
       <div>
-        <div className='inline-block p-0 mr-5'>
+        <div className='sm:inline-block p-0 mr-5'>
           <Link
             to='work'
             smooth={true}

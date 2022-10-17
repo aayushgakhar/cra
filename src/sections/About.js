@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section name="about" className="items-center">
+    <section name="about" className="">
       <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
         <div className="sm:text-right pb-8 px-4">
           <p className="hover-2 text-4xl font-bold inline border-primary pur">
