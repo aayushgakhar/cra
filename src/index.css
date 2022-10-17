@@ -48,11 +48,11 @@
   ) !important;
 }
 
-a svg {
+a .octicon {
   transition: transform 0.2s;
 }
 
-a:hover svg {
+a:hover .octicon {
   transform: translateX(4px);
   transition: transform 0.2s;
 }
