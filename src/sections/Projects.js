@@ -28,14 +28,14 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section name='projects' className='max-w-[1000px] mx-auto p-4'>
+    <section name='projects' className='mx-auto'>
       {/* <div className=' '> */}
-      <div className='pb-8 px-10 md:px-20 lg:px-10'>
-        <p className='hover-2 text-4xl font-bold inline border-primary'>
+      <div className='pb-8'>
+        <h2 className='hover-2 text-4xl font-bold inline border-primary'>
           Projects
-        </p>
+        </h2>
       </div>
-      <div className='grid md:grid-cols-2 gap-4 px-10 md:px-20 lg:px-20'>
+      <div className='grid md:grid-cols-2 gap-4'>
         {projects.map((project) => (
           <Card key={project.name} project={project} />
         ))}

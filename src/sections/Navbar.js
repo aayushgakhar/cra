@@ -65,7 +65,7 @@ const Navbar = (props) => {
               spy={true}
               smooth={true}
               offset={item.offset}
-              duration={500}
+              duration={300}
             >
               {item.name}
             </Link>
