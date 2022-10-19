@@ -1,4 +1,5 @@
 import Navbar from "./sections/Navbar";
+import Sidebar from "./sections/Sidebar";
 import Home from "./sections/Home";
 import Skills from "./sections/Skills";
 import Projects from './sections/Projects';
@@ -9,6 +10,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Sidebar />
       <Home />
       <Skills />
       <Projects />

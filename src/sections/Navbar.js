@@ -3,10 +3,6 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 import Logo from "../assets/AG-logos_transparent.png";
 
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-
 // eslint-disable-next-line
 import {
   Link,
@@ -19,32 +15,7 @@ const navigation = [
   { name: "Contact", href: "#contact", current: true, offset: 0 },
 ];
 
-const social = [
-  {
-    name: "Linkedin",
-    href: "https://www.linkedin.com/in/aayush-gakhar/",
-    icon: FaLinkedin,
-    color: "#2060fc",
-  },
-  {
-    name: "Github",
-    href: "https://github.com/aayushgakhar",
-    icon: FaGithub,
-    color: "#333333",
-  },
-  {
-    name: "Email",
-    href: "mailto:aayushgakhar13@gmail.com",
-    icon: HiOutlineMail,
-    color: "#6fc2b0",
-  },
-  {
-    name: "Resume",
-    href: "https://drive.google.com/drive/folders/13HcrwHrLQaYD21GnqePtUKqAcj-pgwQK?usp=sharing",
-    icon: BsFillPersonLinesFill,
-    color: "#565f69",
-  },
-];
+
 
 const Navbar = (props) => {
   const [nav, setNav] = useState(false);
@@ -102,26 +73,7 @@ const Navbar = (props) => {
       </ul>
 
       {/* social links */}
-      <div className="flex flex-col fixed top-[35%] left-0">
-        <ul className="">
-          {social.map((item) => (
-            <li
-              className={
-                "flex w-[140px] h-[60px] rounded-sm justify-between items-center ml-[-125px] md:ml-[-80px] hover:ml-[-10px] duration-300"
-              }
-              style={{ backgroundColor: item.color }}
-            >
-              <a
-                className="flex justify-between items-center w-full text-gray-300"
-                href={item.href}
-              >
-                {item.name}
-                <item.icon size={30}></item.icon>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
+      
     </div>
   );
 };
