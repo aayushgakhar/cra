@@ -39,7 +39,7 @@ const Card = ({ project }) => {
         <span className='text-sm text-white px-10 c'>{project.desc}</span>
         <div className='pt-3 text-center'>
           <a href={project.link}>
-            <button className='flex items-center text-center rounded-lg px-4 py-3 m-2 mx-auto bg-white text-gray-700 font-bold text-lg hover:bg-gray-200'>
+            <button className='flex items-center text-center rounded-lg px-4 py-3 m-2 mx-auto bg-white text-gray-700 font-bold text-lg hover:bg-gray-200 '>
               github
               <span>
                 <HiExternalLink className='inline ml-1' />

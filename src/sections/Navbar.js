@@ -9,10 +9,10 @@ import {
 } from "react-scroll";
 
 const navigation = [
-  { name: "About", href: "#about", current: true, offset: 0 },
-  { name: "Skills", href: "#skills", current: false, offset: 0 },
-  { name: "Projects", href: "#projects", current: false, offset: 0 },
-  { name: "Contact", href: "#contact", current: true, offset: 0 },
+  { name: "About", href: "#about", current: true, offset: -80 },
+  { name: "Skills", href: "#skills", current: false, offset: -80 },
+  { name: "Projects", href: "#projects", current: false, offset: -80 },
+  { name: "Contact", href: "#contact", current: true, offset: -80 },
 ];
 
 

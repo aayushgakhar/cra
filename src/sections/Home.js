@@ -7,9 +7,9 @@ const Home = () => {
 
     <section name='about' className='mx-auto sm:pt-60 sm:pb-20'>
       <p className='text-primary text-lg sm:text-2xl'>Hi, my name is</p>
-      <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6] bg-clip-text text-transparent bg-fixed bg-gradient-to-r from-indigo-500 to-pink-500  hover:from-red-600 hover:to-violet-700 transition-colors duration-300'>
+      <div className='animation relative font-[dazzle-unicase] text-4xl w-min sm:text-7xl font-bold'>
         Aayush <br/> Gakhar
-      </h1>
+      </div>
       <h2 className='text-4xl sm:text-7xl font-bold text-gray-400'>
         I'm a Software Developer
       </h2>

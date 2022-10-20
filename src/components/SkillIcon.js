@@ -28,7 +28,7 @@ const SkillIcon = ({ icon }) => {
       ref={domRef}
       className={
         (isVisible ? "opacity-100" : "opacity-0 scale-75") +
-        "transition-opacity hover:scale-125 duration-1000"
+        "transition-opacity hover:scale-125 duration-[2000ms]"
       }
     >
       <img
