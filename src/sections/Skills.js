@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-awesome-reveal';
 import SkillIcon from '../components/SkillIcon';
 
 const icons = [
@@ -56,9 +57,11 @@ const Skills = () => {
         </p>
       </div>
       <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
+        <Fade cascade damping={0.01}>
         {icons.map((icon) => (
           <SkillIcon key={icon.name} icon={icon} />
         ))}
+        </Fade>
       </div>
     </section>
   );

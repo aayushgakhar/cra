@@ -4,6 +4,7 @@ import Retailimg from "../assets/retail_store.png";
 import Willhero from "../assets/will_hero.png";
 import Simplerisc from "../assets/simple_risc.png";
 import Card from "../components/Card";
+import { Fade } from "react-awesome-reveal";
 
 const projects = [
   {
@@ -36,9 +37,11 @@ const Projects = () => {
         </h2>
       </div>
       <div className='grid md:grid-cols-2 gap-4'>
+        <Fade cascade damping={ 0.1 }>
         {projects.map((project) => (
           <Card key={project.name} project={project} />
         ))}
+        </Fade>
       </div>
 
       {/* </div> */}

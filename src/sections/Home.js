@@ -8,7 +8,7 @@ const Home = () => {
     <section name='about' className='mx-auto sm:pt-60 sm:pb-20'>
       <p className='text-primary text-lg sm:text-2xl'>Hi, my name is</p>
       <div className='animation relative font-[dazzle-unicase] text-4xl w-min sm:text-7xl font-bold'>
-        Aayush <br/> Gakhar
+        Aayush <br /> Gakhar
       </div>
       <h2 className='text-4xl sm:text-7xl font-bold text-gray-400'>
         I'm a Software Developer
@@ -24,7 +24,7 @@ const Home = () => {
             to='work'
             smooth={true}
             duration={500}
-            className='w-fit group border-current border-2 px-6 py-3 flex items-center hover:bg-gradient-to-r hover:from-blue-800 hover:to-indigo-800 hover:border-blue-900'
+            className='w-fit group border-current border-2 px-6 py-3 flex items-center hover:bg-gray-500 hover:border-transparent hover:text-white'
           >
             View Work
             <svg
@@ -54,7 +54,7 @@ const Home = () => {
             href='https://drive.google.com/drive/folders/13HcrwHrLQaYD21GnqePtUKqAcj-pgwQK?usp=sharing'
             smooth={true}
             duration={500}
-            className='w-fit group border-current border-2 px-6 py-3 my-2 flex items-center hover:bg-gradient-to-r hover:from-blue-800 hover:to-indigo-800 hover:border-blue-900'
+            className='w-fit group border-current border-2 px-6 py-3 my-2 flex items-center hover:bg-gray-500 hover:border-transparent hover:text-white'
           >
             Resume
             <svg
