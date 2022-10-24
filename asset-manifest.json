@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f520866.css",
-    "main.js": "/static/js/main.bb8cecff.js",
-    "static/media/will_hero.png": "/static/media/will_hero.cc19e683c119f4677b05.png",
-    "static/media/simple_risc.png": "/static/media/simple_risc.a2cfe7df1fcd900653ba.png",
-    "static/media/retail_store.png": "/static/media/retail_store.d5e3d36c303a0f452d2a.png",
-    "static/media/AG-logos_transparent.png": "/static/media/AG-logos_transparent.e73fb28d81c97ca3b66b.png",
-    "index.html": "/index.html",
-    "main.3f520866.css.map": "/static/css/main.3f520866.css.map",
-    "main.bb8cecff.js.map": "/static/js/main.bb8cecff.js.map"
+    "main.css": "/cra/static/css/main.e5d2d738.css",
+    "main.js": "/cra/static/js/main.7091c1f7.js",
+    "static/media/will_hero.png": "/cra/static/media/will_hero.cc19e683c119f4677b05.png",
+    "static/media/simple_risc.png": "/cra/static/media/simple_risc.a2cfe7df1fcd900653ba.png",
+    "static/media/retail_store.png": "/cra/static/media/retail_store.d5e3d36c303a0f452d2a.png",
+    "static/media/AG-logos_transparent.png": "/cra/static/media/AG-logos_transparent.e73fb28d81c97ca3b66b.png",
+    "index.html": "/cra/index.html",
+    "main.e5d2d738.css.map": "/cra/static/css/main.e5d2d738.css.map",
+    "main.7091c1f7.js.map": "/cra/static/js/main.7091c1f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f520866.css",
-    "static/js/main.bb8cecff.js"
+    "static/css/main.e5d2d738.css",
+    "static/js/main.7091c1f7.js"
   ]
 }
